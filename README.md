@@ -12,7 +12,7 @@ Dynamic Key-Value Memory Networks for Knowledge Tracing
 
 ## Model Architecture
 
-![DKVMN Architecture](https://github.com/jennyzhang0215/DKVMN/blob/master/DKVMN_architecture.pdf)
+![DKVMN Architecture](https://github.com/jennyzhang0215/DKVMN/blob/master/DKVMN_architecture.png)
 ![DKVMN Code](https://github.com/jennyzhang0215/DKVMN/blob/master/DKVMN_code.png)
 
 ### Data format
