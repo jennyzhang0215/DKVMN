@@ -14,14 +14,23 @@ Dynamic Key-Value Memory Networks for Knowledge Tracing
 
 ### Data format
 
+The first line the number of exercises a student attempted.
+The second line is the exercise tag sequence.
+The third line is the response sequence.
+
+'''
+    15
+    1,1,1,1,7,7,9,10,10,10,10,11,11,45,54
+    0,1,1,1,1,1,0,0,1,1,1,1,1,0,0
+'''
 
 ### Hyperparameters
 
 --gpus: the gpus will be used, e.g "0,1,2,3"
 
---max_iter: the number of iterations')
+--max_iter: the number of iterations
 
---test: enable testing')
+--test: enable testing
 
 --train_test: enable testing after training
 
@@ -37,7 +46,7 @@ Dynamic Key-Value Memory Networks for Knowledge Tracing
 
 --maxgradnorm: maximum gradient norm
 
---final_fc_dim: hidden state dim for final fc layer'
+--final_fc_dim: hidden state dim for final fc layer
 
 --n_question: the number of unique questions in the dataset
 
@@ -49,7 +58,9 @@ Dynamic Key-Value Memory Networks for Knowledge Tracing
 
 --load: model file to load
 
---save: path to save model'
+--save: path to save model
+
+
 
 ### Training
  ```
