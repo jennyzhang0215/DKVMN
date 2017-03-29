@@ -1,0 +1,1224 @@
+qid	skillid	skillname
+1	1	identify_interaction
+2	2	gravitational_forces
+3	3	represent_interaction_spring
+4	4	represent_interaction_cord
+5	1	identify_interaction
+6	3	represent_interaction_spring
+7	4	represent_interaction_cord
+8	5	simple_step
+9	1	identify_interaction
+10	1	identify_interaction
+11	5	simple_step
+12	4	represent_interaction_cord
+13	3	represent_interaction_spring
+14	1	identify_interaction
+15	4	represent_interaction_cord
+16	3	represent_interaction_spring
+17	2	gravitational_forces
+18	1	identify_interaction
+19	2	gravitational_forces
+20	2	gravitational_forces
+21	1	identify_interaction
+22	6	distinguish_rotation_translation
+23	6	distinguish_rotation_translation
+24	6	distinguish_rotation_translation
+25	6	distinguish_rotation_translation
+26	6	distinguish_rotation_translation
+27	6	distinguish_rotation_translation
+28	7	motion_dependence_on_force
+29	7	motion_dependence_on_force
+30	7	motion_dependence_on_force
+31	8	rotation_sense_of_force
+32	8	rotation_sense_of_force
+33	8	rotation_sense_of_force
+34	8	rotation_sense_of_force
+35	8	rotation_sense_of_force
+36	8	rotation_sense_of_force
+37	9	find_moment_arm
+38	5	simple_step
+39	8	rotation_sense_of_force
+40	10	moment_sign_sense_relation
+41	9	find_moment_arm
+42	5	simple_step
+43	8	rotation_sense_of_force
+44	10	moment_sign_sense_relation
+45	9	find_moment_arm
+46	5	simple_step
+47	8	rotation_sense_of_force
+48	10	moment_sign_sense_relation
+49	9	find_moment_arm
+50	5	simple_step
+51	9	find_moment_arm
+52	5	simple_step
+53	8	rotation_sense_of_force
+54	10	moment_sign_sense_relation
+55	7	motion_dependence_on_force
+56	11	
+57	10	moment_sign_sense_relation
+58	7	motion_dependence_on_force
+59	11	
+60	7	motion_dependence_on_force
+61	11	
+62	12	rotation_sense_of_force~~motion_dependence_on_force
+63	9	find_moment_arm
+64	12	rotation_sense_of_force~~motion_dependence_on_force
+65	8	rotation_sense_of_force
+66	12	rotation_sense_of_force~~motion_dependence_on_force
+67	10	moment_sign_sense_relation
+68	12	rotation_sense_of_force~~motion_dependence_on_force
+69	9	find_moment_arm
+70	11	
+71	8	rotation_sense_of_force
+72	1	identify_interaction
+73	1	identify_interaction
+74	1	identify_interaction
+75	1	identify_interaction
+76	1	identify_interaction
+77	4	represent_interaction_cord
+78	13	body_draw_force_on
+79	14	represent_interaction_contacting_body
+80	14	represent_interaction_contacting_body
+81	13	body_draw_force_on
+82	14	represent_interaction_contacting_body
+83	14	represent_interaction_contacting_body
+84	13	body_draw_force_on
+85	3	represent_interaction_spring
+86	3	represent_interaction_spring
+87	13	body_draw_force_on
+88	3	represent_interaction_spring
+89	3	represent_interaction_spring
+90	14	represent_interaction_contacting_body
+91	15	identify_interaction~~body_draw_force_on
+92	14	represent_interaction_contacting_body
+93	1	identify_interaction
+94	15	identify_interaction~~body_draw_force_on
+95	1	identify_interaction
+96	3	represent_interaction_spring
+97	1	identify_interaction
+98	3	represent_interaction_spring
+99	4	represent_interaction_cord
+100	15	identify_interaction~~body_draw_force_on
+101	4	represent_interaction_cord
+102	3	represent_interaction_spring
+103	15	identify_interaction~~body_draw_force_on
+104	3	represent_interaction_spring
+105	16	resolve_into_components
+106	16	resolve_into_components
+107	10	moment_sign_sense_relation
+108	8	rotation_sense_of_force
+109	8	rotation_sense_of_force
+110	5	simple_step
+111	17	is_net_moment_sense_obvious
+112	8	rotation_sense_of_force
+113	18	moment_sign_sense_relation~~rotation_sense_of_force
+114	9	find_moment_arm
+115	18	moment_sign_sense_relation~~rotation_sense_of_force
+116	9	find_moment_arm
+117	18	moment_sign_sense_relation~~rotation_sense_of_force
+118	9	find_moment_arm
+119	18	moment_sign_sense_relation~~rotation_sense_of_force
+120	16	resolve_into_components
+121	9	find_moment_arm
+122	18	moment_sign_sense_relation~~rotation_sense_of_force
+123	16	resolve_into_components
+124	9	find_moment_arm
+125	19	statics_problem_collinear
+126	20	choose_subsystem
+127	4	represent_interaction_cord
+128	14	represent_interaction_contacting_body
+129	5	simple_step
+130	21	recognize_forces_concurrent
+131	22	recognize_forces_collinear
+132	23	count_independent_equations
+133	24	count_unknowns
+134	16	resolve_into_components
+135	16	resolve_into_components
+136	16	resolve_into_components
+137	16	resolve_into_components
+138	16	resolve_into_components
+139	16	resolve_into_components
+140	5	simple_step
+141	16	resolve_into_components
+142	16	resolve_into_components
+143	5	simple_step
+144	5	simple_step
+145	5	simple_step
+146	5	simple_step
+147	25	find_magnitude_given_components
+148	26	find_angle_given_components
+149	11	
+150	25	find_magnitude_given_components
+151	26	find_angle_given_components
+152	10	moment_sign_sense_relation
+153	16	resolve_into_components
+154	18	moment_sign_sense_relation~~rotation_sense_of_force
+155	16	resolve_into_components
+156	16	resolve_into_components
+157	16	resolve_into_components
+158	16	resolve_into_components
+159	19	statics_problem_collinear
+160	5	simple_step
+161	16	resolve_into_components
+162	16	resolve_into_components
+163	16	resolve_into_components
+164	16	resolve_into_components
+165	16	resolve_into_components
+166	16	resolve_into_components
+167	5	simple_step
+168	27	impose_solve_concurrent_equilibrium
+169	27	impose_solve_concurrent_equilibrium
+170	14	represent_interaction_contacting_body
+171	4	represent_interaction_cord
+172	4	represent_interaction_cord
+173	4	represent_interaction_cord
+174	4	represent_interaction_cord
+175	3	represent_interaction_spring
+176	3	represent_interaction_spring
+177	3	represent_interaction_spring
+178	3	represent_interaction_spring
+179	11	
+180	11	
+181	11	
+182	19	statics_problem_collinear
+183	28	judge_equilibrium_qualitatively
+184	21	recognize_forces_concurrent
+185	22	recognize_forces_collinear
+186	23	count_independent_equations
+187	29	recognize_knowns_vs_unknowns
+188	29	recognize_knowns_vs_unknowns
+189	29	recognize_knowns_vs_unknowns
+190	29	recognize_knowns_vs_unknowns
+191	28	judge_equilibrium_qualitatively
+192	28	judge_equilibrium_qualitatively
+193	5	simple_step
+194	30	find_moment_arm~~rotation_sense_of_force
+195	9	find_moment_arm
+196	9	find_moment_arm
+197	5	simple_step
+198	31	interpret_equation
+199	28	judge_equilibrium_qualitatively
+200	28	judge_equilibrium_qualitatively
+201	28	judge_equilibrium_qualitatively
+202	28	judge_equilibrium_qualitatively
+203	28	judge_equilibrium_qualitatively
+204	31	interpret_equation
+205	31	interpret_equation
+206	31	interpret_equation
+207	31	interpret_equation
+208	31	interpret_equation
+209	28	judge_equilibrium_qualitatively
+210	28	judge_equilibrium_qualitatively
+211	28	judge_equilibrium_qualitatively
+212	28	judge_equilibrium_qualitatively
+213	28	judge_equilibrium_qualitatively
+214	28	judge_equilibrium_qualitatively
+215	32	statics_problem_force_and_moment
+216	32	statics_problem_force_and_moment
+217	32	statics_problem_force_and_moment
+218	32	statics_problem_force_and_moment
+219	32	statics_problem_force_and_moment
+220	32	statics_problem_force_and_moment
+221	32	statics_problem_force_and_moment
+222	32	statics_problem_force_and_moment
+223	32	statics_problem_force_and_moment
+224	32	statics_problem_force_and_moment
+225	33	couple_represents_net_zero_force
+226	33	couple_represents_net_zero_force
+227	34	motion_dependence_on_force~~couple_represents_net_zero_force
+228	34	motion_dependence_on_force~~couple_represents_net_zero_force
+229	33	couple_represents_net_zero_force
+230	33	couple_represents_net_zero_force
+231	35	couple_represents_net_zero_force~~couple_related_to_forces
+232	33	couple_represents_net_zero_force
+233	33	couple_represents_net_zero_force
+234	35	couple_represents_net_zero_force~~couple_related_to_forces
+235	33	couple_represents_net_zero_force
+236	36	couple_related_to_forces
+237	36	couple_related_to_forces
+238	33	couple_represents_net_zero_force
+239	33	couple_represents_net_zero_force
+240	36	couple_related_to_forces
+241	36	couple_related_to_forces
+242	35	couple_represents_net_zero_force~~couple_related_to_forces
+243	35	couple_represents_net_zero_force~~couple_related_to_forces
+244	33	couple_represents_net_zero_force
+245	35	couple_represents_net_zero_force~~couple_related_to_forces
+246	33	couple_represents_net_zero_force
+247	33	couple_represents_net_zero_force
+248	36	couple_related_to_forces
+249	36	couple_related_to_forces
+250	33	couple_represents_net_zero_force
+251	36	couple_related_to_forces
+252	36	couple_related_to_forces
+253	33	couple_represents_net_zero_force
+254	33	couple_represents_net_zero_force
+255	36	couple_related_to_forces
+256	36	couple_related_to_forces
+257	37	equivalence_of_couples
+258	37	equivalence_of_couples
+259	33	couple_represents_net_zero_force
+260	37	equivalence_of_couples
+261	33	couple_represents_net_zero_force
+262	33	couple_represents_net_zero_force
+263	36	couple_related_to_forces
+264	36	couple_related_to_forces
+265	38	moment_about_point_due_to_couple
+266	38	moment_about_point_due_to_couple
+267	33	couple_represents_net_zero_force
+268	33	couple_represents_net_zero_force
+269	33	couple_represents_net_zero_force
+270	33	couple_represents_net_zero_force
+271	36	couple_related_to_forces
+272	33	couple_represents_net_zero_force
+273	36	couple_related_to_forces
+274	33	couple_represents_net_zero_force
+275	39	recognize_equivalence_from_motion
+276	40	recognize_conditions_for_full_equivalence
+277	39	recognize_equivalence_from_motion
+278	39	recognize_equivalence_from_motion
+279	41	recognize_conditions_for_full_equivalence~~recognize_equivalence_from_motion
+280	39	recognize_equivalence_from_motion
+281	39	recognize_equivalence_from_motion
+282	42	recognize_equivalence_of_translated_forces
+283	37	equivalence_of_couples
+284	37	equivalence_of_couples
+285	40	recognize_conditions_for_full_equivalence
+286	42	recognize_equivalence_of_translated_forces
+287	42	recognize_equivalence_of_translated_forces
+288	42	recognize_equivalence_of_translated_forces
+289	37	equivalence_of_couples
+290	43	moving_force_perpendicular_to_line_of_action
+291	43	moving_force_perpendicular_to_line_of_action
+292	43	moving_force_perpendicular_to_line_of_action
+293	43	moving_force_perpendicular_to_line_of_action
+294	43	moving_force_perpendicular_to_line_of_action
+295	43	moving_force_perpendicular_to_line_of_action
+296	43	moving_force_perpendicular_to_line_of_action
+297	43	moving_force_perpendicular_to_line_of_action
+298	44	moving_force_to_general_point
+299	44	moving_force_to_general_point
+300	44	moving_force_to_general_point
+301	44	moving_force_to_general_point
+302	44	moving_force_to_general_point
+303	44	moving_force_to_general_point
+304	44	moving_force_to_general_point
+305	44	moving_force_to_general_point
+306	44	moving_force_to_general_point
+307	44	moving_force_to_general_point
+308	45	replace_forces_in_same_sense_with_one_force
+309	45	replace_forces_in_same_sense_with_one_force
+310	45	replace_forces_in_same_sense_with_one_force
+311	46	replace_forces_in_opposite_sense_with_force_and_couple
+312	46	replace_forces_in_opposite_sense_with_force_and_couple
+313	46	replace_forces_in_opposite_sense_with_force_and_couple
+314	46	replace_forces_in_opposite_sense_with_force_and_couple
+315	46	replace_forces_in_opposite_sense_with_force_and_couple
+316	46	replace_forces_in_opposite_sense_with_force_and_couple
+317	46	replace_forces_in_opposite_sense_with_force_and_couple
+318	46	replace_forces_in_opposite_sense_with_force_and_couple
+319	47	replace_general_loads_with_force_and_couple
+320	47	replace_general_loads_with_force_and_couple
+321	47	replace_general_loads_with_force_and_couple
+322	47	replace_general_loads_with_force_and_couple
+323	47	replace_general_loads_with_force_and_couple
+324	47	replace_general_loads_with_force_and_couple
+325	47	replace_general_loads_with_force_and_couple
+326	47	replace_general_loads_with_force_and_couple
+327	47	replace_general_loads_with_force_and_couple
+328	47	replace_general_loads_with_force_and_couple
+329	47	replace_general_loads_with_force_and_couple
+330	47	replace_general_loads_with_force_and_couple
+331	47	replace_general_loads_with_force_and_couple
+332	47	replace_general_loads_with_force_and_couple
+333	47	replace_general_loads_with_force_and_couple
+334	47	replace_general_loads_with_force_and_couple
+335	47	replace_general_loads_with_force_and_couple
+336	47	replace_general_loads_with_force_and_couple
+337	47	replace_general_loads_with_force_and_couple
+338	47	replace_general_loads_with_force_and_couple
+339	47	replace_general_loads_with_force_and_couple
+340	47	replace_general_loads_with_force_and_couple
+341	42	recognize_equivalence_of_translated_forces
+342	46	replace_forces_in_opposite_sense_with_force_and_couple
+343	42	recognize_equivalence_of_translated_forces
+344	46	replace_forces_in_opposite_sense_with_force_and_couple
+345	40	recognize_conditions_for_full_equivalence
+346	46	replace_forces_in_opposite_sense_with_force_and_couple
+347	42	recognize_equivalence_of_translated_forces
+348	47	replace_general_loads_with_force_and_couple
+349	43	moving_force_perpendicular_to_line_of_action
+350	47	replace_general_loads_with_force_and_couple
+351	43	moving_force_perpendicular_to_line_of_action
+352	47	replace_general_loads_with_force_and_couple
+353	46	replace_forces_in_opposite_sense_with_force_and_couple
+354	46	replace_forces_in_opposite_sense_with_force_and_couple
+355	48	possible_interaction_for_nonuniform_contact
+356	48	possible_interaction_for_nonuniform_contact
+357	48	possible_interaction_for_nonuniform_contact
+358	49	find_net_force_position_for_linear_distribution
+359	50	find_net_force_for_linear_distribution
+360	51	find_linear_force_per_length
+361	51	find_linear_force_per_length
+362	52	find_symmetry_plane
+363	53	distinguish_fixed_pin_connections
+364	53	distinguish_fixed_pin_connections
+365	54	represent_interaction_fixed_connection
+366	54	represent_interaction_fixed_connection
+367	11	
+368	55	judge_force_sense_based_on_sign
+369	56	relate_direction_normal_force_and_contact
+370	57	judge_force_sense_based_on_sign~~relate_direction_normal_force_and_contact
+371	55	judge_force_sense_based_on_sign
+372	58	can_connection_be_modeled_in_2D
+373	58	can_connection_be_modeled_in_2D
+374	58	can_connection_be_modeled_in_2D
+375	58	can_connection_be_modeled_in_2D
+376	59	represent_forces_two-force_member
+377	60	represent_interaction_roller_connection
+378	56	relate_direction_normal_force_and_contact
+379	60	represent_interaction_roller_connection
+380	61	conditions_equal_force_pulley
+381	54	represent_interaction_fixed_connection
+382	62	represent_interaction_pin_connection
+383	63	represent_interaction_pin_in_slot_connection
+384	60	represent_interaction_roller_connection
+385	62	represent_interaction_pin_connection
+386	62	represent_interaction_pin_connection
+387	63	represent_interaction_pin_in_slot_connection
+388	64	represent_interaction_rigid_sliding_connection
+389	62	represent_interaction_pin_connection
+390	62	represent_interaction_pin_connection
+391	63	represent_interaction_pin_in_slot_connection
+392	64	represent_interaction_rigid_sliding_connection
+393	62	represent_interaction_pin_connection
+394	62	represent_interaction_pin_connection
+395	63	represent_interaction_pin_in_slot_connection
+396	64	represent_interaction_rigid_sliding_connection
+397	62	represent_interaction_pin_connection
+398	62	represent_interaction_pin_connection
+399	63	represent_interaction_pin_in_slot_connection
+400	64	represent_interaction_rigid_sliding_connection
+401	62	represent_interaction_pin_connection
+402	62	represent_interaction_pin_connection
+403	60	represent_interaction_roller_connection
+404	62	represent_interaction_pin_connection
+405	62	represent_interaction_pin_connection
+406	60	represent_interaction_roller_connection
+407	62	represent_interaction_pin_connection
+408	59	represent_forces_two-force_member
+409	60	represent_interaction_roller_connection
+410	62	represent_interaction_pin_connection
+411	62	represent_interaction_pin_connection
+412	4	represent_interaction_cord
+413	4	represent_interaction_cord
+414	60	represent_interaction_roller_connection
+415	60	represent_interaction_roller_connection
+416	54	represent_interaction_fixed_connection
+417	54	represent_interaction_fixed_connection
+418	11	
+419	11	
+420	11	
+421	11	
+422	11	
+423	11	
+424	11	
+425	11	
+426	11	
+427	11	
+428	11	
+429	11	
+430	11	
+431	11	
+432	11	
+433	11	
+434	11	
+435	11	
+436	11	
+437	11	
+438	11	
+439	11	
+440	11	
+441	11	
+442	11	
+443	11	
+444	11	
+445	11	
+446	11	
+447	11	
+448	11	
+449	11	
+450	11	
+451	11	
+452	11	
+453	11	
+454	11	
+455	11	
+456	11	
+457	11	
+458	11	
+459	11	
+460	11	
+461	11	
+462	11	
+463	11	
+464	11	
+465	11	
+466	11	
+467	11	
+468	11	
+469	11	
+470	11	
+471	11	
+472	11	
+473	11	
+474	11	
+475	11	
+476	11	
+477	11	
+478	11	
+479	11	
+480	11	
+481	11	
+482	11	
+483	11	
+484	11	
+485	11	
+486	11	
+487	11	
+488	65	find_moment_arm~~moment_sign_sense_relation~~rotation_sense_of_force
+489	16	resolve_into_components
+490	38	moment_about_point_due_to_couple
+491	16	resolve_into_components
+492	65	find_moment_arm~~moment_sign_sense_relation~~rotation_sense_of_force
+493	16	resolve_into_components
+494	28	judge_equilibrium_qualitatively
+495	65	find_moment_arm~~moment_sign_sense_relation~~rotation_sense_of_force
+496	16	resolve_into_components
+497	28	judge_equilibrium_qualitatively
+498	65	find_moment_arm~~moment_sign_sense_relation~~rotation_sense_of_force
+499	16	resolve_into_components
+500	28	judge_equilibrium_qualitatively
+501	38	moment_about_point_due_to_couple
+502	16	resolve_into_components
+503	66	statics_problem_force_and_moment~~interpret_equation~~possible_interaction_for_nonuniform_contact
+504	65	find_moment_arm~~moment_sign_sense_relation~~rotation_sense_of_force
+505	16	resolve_into_components
+506	66	statics_problem_force_and_moment~~interpret_equation~~possible_interaction_for_nonuniform_contact
+507	65	find_moment_arm~~moment_sign_sense_relation~~rotation_sense_of_force
+508	16	resolve_into_components
+509	11	
+510	11	
+511	11	
+512	11	
+513	11	
+514	11	
+515	11	
+516	11	
+517	11	
+518	11	
+519	11	
+520	11	
+521	11	
+522	11	
+523	11	
+524	11	
+525	11	
+526	11	
+527	11	
+528	11	
+529	11	
+530	11	
+531	11	
+532	11	
+533	11	
+534	11	
+535	11	
+536	11	
+537	11	
+538	11	
+539	11	
+540	11	
+541	11	
+542	11	
+543	11	
+544	11	
+545	11	
+546	11	
+547	11	
+548	11	
+549	11	
+550	11	
+551	11	
+552	11	
+553	11	
+554	11	
+555	11	
+556	11	
+557	11	
+558	11	
+559	11	
+560	11	
+561	11	
+562	11	
+563	11	
+564	11	
+565	11	
+566	11	
+567	11	
+568	11	
+569	11	
+570	11	
+571	11	
+572	11	
+573	11	
+574	67	identify_interaction~~represent_interaction_contacting_body~~represent_interaction_cord
+575	68	identify_two-force_member
+576	68	identify_two-force_member
+577	68	identify_two-force_member
+578	68	identify_two-force_member
+579	68	identify_two-force_member
+580	68	identify_two-force_member
+581	69	identify_interaction~~represent_interaction_pin_connection~~represent_forces_two-force_member
+582	11	
+583	11	
+584	11	
+585	11	
+586	11	
+587	11	
+588	11	
+589	11	
+590	11	
+591	11	
+592	11	
+593	11	
+594	70	identify_interaction~~Newtons_third_law
+595	70	identify_interaction~~Newtons_third_law
+596	1	identify_interaction
+597	1	identify_interaction
+598	71	identify_interaction~~represent_interaction_cord
+599	71	identify_interaction~~represent_interaction_cord
+600	11	
+601	11	
+602	11	
+603	11	
+604	11	
+605	11	
+606	11	
+607	11	
+608	11	
+609	11	
+610	11	
+611	11	
+612	11	
+613	11	
+614	11	
+615	11	
+616	11	
+617	11	
+618	11	
+619	11	
+620	11	
+621	11	
+622	11	
+623	11	
+624	11	
+625	72	identify_enabling_unknown~~determine_subsystem_is_solvable
+626	73	identify_equation_isolates_specific_unknown
+627	74	identify_enabling_unknown
+628	5	simple_step
+629	75	identify_equation_isolates_specific_unknown~~anticipate_solved_variables
+630	5	simple_step
+631	11	
+632	11	
+633	11	
+634	11	
+635	11	
+636	11	
+637	11	
+638	11	
+639	11	
+640	11	
+641	11	
+642	11	
+643	11	
+644	11	
+645	11	
+646	11	
+647	11	
+648	11	
+649	11	
+650	11	
+651	11	
+652	11	
+653	11	
+654	11	
+655	11	
+656	11	
+657	11	
+658	11	
+659	11	
+660	11	
+661	11	
+662	11	
+663	11	
+664	11	
+665	11	
+666	11	
+667	11	
+668	11	
+669	11	
+670	11	
+671	11	
+672	11	
+673	11	
+674	11	
+675	11	
+676	11	
+677	11	
+678	11	
+679	11	
+680	11	
+681	11	
+682	11	
+683	11	
+684	11	
+685	11	
+686	11	
+687	11	
+688	11	
+689	11	
+690	11	
+691	11	
+692	11	
+693	11	
+694	11	
+695	11	
+696	11	
+697	11	
+698	11	
+699	11	
+700	11	
+701	11	
+702	11	
+703	11	
+704	11	
+705	11	
+706	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+707	77	Newtons_third_law~~tension_vs_compression_given_force_senses~~judge_force_sense_based_on_sign
+708	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+709	77	Newtons_third_law~~tension_vs_compression_given_force_senses~~judge_force_sense_based_on_sign
+710	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+711	78	force_at_joint_implied_by_previous_analysis
+712	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+713	79	force_at_joint_implied_by_previous_analysis~~sense_if_assuming_tension
+714	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+715	79	force_at_joint_implied_by_previous_analysis~~sense_if_assuming_tension
+716	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+717	79	force_at_joint_implied_by_previous_analysis~~sense_if_assuming_tension
+718	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+719	79	force_at_joint_implied_by_previous_analysis~~sense_if_assuming_tension
+720	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+721	76	anticipate_solved_variables~~determine_joint_is_solvable~~recognize_variable_solvable_from_subsystem
+722	79	force_at_joint_implied_by_previous_analysis~~sense_if_assuming_tension
+723	11	
+724	11	
+725	11	
+726	11	
+727	11	
+728	11	
+729	11	
+730	11	
+731	11	
+732	11	
+733	80	sense_if_assuming_tension~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+734	80	sense_if_assuming_tension~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+735	80	sense_if_assuming_tension~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+736	81	determine_subsystem_is_solvable~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+737	81	determine_subsystem_is_solvable~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+738	81	determine_subsystem_is_solvable~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+739	81	determine_subsystem_is_solvable~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+740	81	determine_subsystem_is_solvable~~identify_external_load_points_on_section~~identify_internal_load_points_on_section
+741	1	identify_interaction
+742	1	identify_interaction
+743	1	identify_interaction
+744	1	identify_interaction
+745	1	identify_interaction
+746	1	identify_interaction
+747	14	represent_interaction_contacting_body
+748	1	identify_interaction
+749	14	represent_interaction_contacting_body
+750	14	represent_interaction_contacting_body
+751	4	represent_interaction_cord
+752	4	represent_interaction_cord
+753	4	represent_interaction_cord
+754	3	represent_interaction_spring
+755	15	identify_interaction~~body_draw_force_on
+756	3	represent_interaction_spring
+757	3	represent_interaction_spring
+758	3	represent_interaction_spring
+759	15	identify_interaction~~body_draw_force_on
+760	14	represent_interaction_contacting_body
+761	14	represent_interaction_contacting_body
+762	14	represent_interaction_contacting_body
+763	1	identify_interaction
+764	15	identify_interaction~~body_draw_force_on
+765	4	represent_interaction_cord
+766	4	represent_interaction_cord
+767	4	represent_interaction_cord
+768	15	identify_interaction~~body_draw_force_on
+769	3	represent_interaction_spring
+770	3	represent_interaction_spring
+771	3	represent_interaction_spring
+772	82	determine_moment
+773	26	find_angle_given_components
+774	9	find_moment_arm
+775	31	interpret_equation
+776	31	interpret_equation
+777	33	couple_represents_net_zero_force
+778	33	couple_represents_net_zero_force
+779	52	find_symmetry_plane
+780	52	find_symmetry_plane
+781	83	identify_forces_in_symmetry_plane
+782	83	identify_forces_in_symmetry_plane
+783	83	identify_forces_in_symmetry_plane
+784	83	identify_forces_in_symmetry_plane
+785	52	find_symmetry_plane
+786	83	identify_forces_in_symmetry_plane
+787	52	find_symmetry_plane
+788	52	find_symmetry_plane
+789	83	identify_forces_in_symmetry_plane
+790	52	find_symmetry_plane
+791	84	find_uniform_pressure_under_weight
+792	85	find_uniform_force_per_length
+793	11	
+794	11	
+795	11	
+796	11	
+797	11	
+798	11	
+799	11	
+800	11	
+801	11	
+802	11	
+803	11	
+804	11	
+805	11	
+806	11	
+807	11	
+808	11	
+809	11	
+810	11	
+811	11	
+812	11	
+813	11	
+814	11	
+815	11	
+816	11	
+817	11	
+818	11	
+819	11	
+820	11	
+821	11	
+822	11	
+823	11	
+824	11	
+825	11	
+826	11	
+827	11	
+828	11	
+829	11	
+830	11	
+831	11	
+832	11	
+833	11	
+834	11	
+835	11	
+836	11	
+837	11	
+838	11	
+839	11	
+840	11	
+841	11	
+842	11	
+843	11	
+844	11	
+845	11	
+846	11	
+847	11	
+848	11	
+849	11	
+850	11	
+851	11	
+852	11	
+853	11	
+854	11	
+855	11	
+856	11	
+857	11	
+858	11	
+859	11	
+860	11	
+861	11	
+862	11	
+863	11	
+864	11	
+865	11	
+866	11	
+867	11	
+868	11	
+869	11	
+870	11	
+871	11	
+872	11	
+873	11	
+874	11	
+875	11	
+876	11	
+877	11	
+878	11	
+879	11	
+880	11	
+881	11	
+882	11	
+883	11	
+884	11	
+885	11	
+886	11	
+887	11	
+888	11	
+889	11	
+890	11	
+891	11	
+892	11	
+893	11	
+894	11	
+895	11	
+896	11	
+897	11	
+898	11	
+899	11	
+900	11	
+901	11	
+902	11	
+903	11	
+904	11	
+905	11	
+906	11	
+907	11	
+908	11	
+909	11	
+910	11	
+911	11	
+912	11	
+913	11	
+914	11	
+915	11	
+916	11	
+917	11	
+918	11	
+919	11	
+920	11	
+921	11	
+922	11	
+923	11	
+924	11	
+925	11	
+926	11	
+927	11	
+928	11	
+929	11	
+930	11	
+931	11	
+932	11	
+933	11	
+934	11	
+935	11	
+936	11	
+937	11	
+938	11	
+939	11	
+940	11	
+941	11	
+942	11	
+943	11	
+944	11	
+945	11	
+946	11	
+947	11	
+948	11	
+949	11	
+950	11	
+951	11	
+952	11	
+953	11	
+954	14	represent_interaction_contacting_body
+955	14	represent_interaction_contacting_body
+956	3	represent_interaction_spring
+957	11	
+958	11	
+959	11	
+960	11	
+961	11	
+962	11	
+963	11	
+964	11	
+965	11	
+966	11	
+967	11	
+968	11	
+969	11	
+970	11	
+971	11	
+972	11	
+973	11	
+974	11	
+975	11	
+976	11	
+977	86	polar_moment_of_area
+978	87	second_moment_of_area_parallel_axis_theorem
+979	88	second_moment_of_area_tabulated_shape
+980	89	relative_magnitudes_moment_of_area
+981	90	find_pressure_under_linear_distribution
+982	51	find_linear_force_per_length
+983	51	find_linear_force_per_length
+984	16	resolve_into_components
+985	91	choose_moment_method
+986	91	choose_moment_method
+987	91	choose_moment_method
+988	32	statics_problem_force_and_moment
+989	32	statics_problem_force_and_moment
+990	32	statics_problem_force_and_moment
+991	47	replace_general_loads_with_force_and_couple
+992	47	replace_general_loads_with_force_and_couple
+993	47	replace_general_loads_with_force_and_couple
+994	47	replace_general_loads_with_force_and_couple
+995	92	replace_general_loads_with_single_force
+996	92	replace_general_loads_with_single_force
+997	92	replace_general_loads_with_single_force
+998	85	find_uniform_force_per_length
+999	84	find_uniform_pressure_under_weight
+1000	90	find_pressure_under_linear_distribution
+1001	51	find_linear_force_per_length
+1002	51	find_linear_force_per_length
+1003	85	find_uniform_force_per_length
+1004	51	find_linear_force_per_length
+1005	49	find_net_force_position_for_linear_distribution
+1006	50	find_net_force_for_linear_distribution
+1007	50	find_net_force_for_linear_distribution
+1008	49	find_net_force_position_for_linear_distribution
+1009	93	find_net_force_for_uniform_distribution
+1010	94	find_net_force_position_for_uniform_distribution
+1011	93	find_net_force_for_uniform_distribution
+1012	94	find_net_force_position_for_uniform_distribution
+1013	50	find_net_force_for_linear_distribution
+1014	49	find_net_force_position_for_linear_distribution
+1015	48	possible_interaction_for_nonuniform_contact
+1016	48	possible_interaction_for_nonuniform_contact
+1017	48	possible_interaction_for_nonuniform_contact
+1018	48	possible_interaction_for_nonuniform_contact
+1019	48	possible_interaction_for_nonuniform_contact
+1020	11	
+1021	11	
+1022	11	
+1023	11	
+1024	11	
+1025	11	
+1026	11	
+1027	11	
+1028	11	
+1029	11	
+1030	11	
+1031	11	
+1032	11	
+1033	11	
+1034	11	
+1035	11	
+1036	11	
+1037	11	
+1038	11	
+1039	11	
+1040	11	
+1041	11	
+1042	11	
+1043	11	
+1044	11	
+1045	11	
+1046	11	
+1047	11	
+1048	11	
+1049	11	
+1050	11	
+1051	11	
+1052	11	
+1053	11	
+1054	11	
+1055	11	
+1056	11	
+1057	11	
+1058	11	
+1059	11	
+1060	11	
+1061	11	
+1062	11	
+1063	11	
+1064	11	
+1065	11	
+1066	11	
+1067	11	
+1068	11	
+1069	11	
+1070	11	
+1071	11	
+1072	11	
+1073	11	
+1074	11	
+1075	11	
+1076	11	
+1077	11	
+1078	11	
+1079	11	
+1080	11	
+1081	11	
+1082	11	
+1083	11	
+1084	11	
+1085	11	
+1086	11	
+1087	11	
+1088	11	
+1089	11	
+1090	11	
+1091	11	
+1092	11	
+1093	11	
+1094	11	
+1095	11	
+1096	11	
+1097	11	
+1098	11	
+1099	11	
+1100	11	
+1101	11	
+1102	11	
+1103	11	
+1104	11	
+1105	11	
+1106	11	
+1107	11	
+1108	11	
+1109	11	
+1110	11	
+1111	11	
+1112	11	
+1113	11	
+1114	11	
+1115	11	
+1116	11	
+1117	11	
+1118	11	
+1119	11	
+1120	11	
+1121	16	resolve_into_components
+1122	16	resolve_into_components
+1123	16	resolve_into_components
+1124	16	resolve_into_components
+1125	25	find_magnitude_given_components
+1126	26	find_angle_given_components
+1127	18	moment_sign_sense_relation~~rotation_sense_of_force
+1128	18	moment_sign_sense_relation~~rotation_sense_of_force
+1129	9	find_moment_arm
+1130	9	find_moment_arm
+1131	82	determine_moment
+1132	82	determine_moment
+1133	55	judge_force_sense_based_on_sign
+1134	18	moment_sign_sense_relation~~rotation_sense_of_force
+1135	9	find_moment_arm
+1136	52	find_symmetry_plane
+1137	52	find_symmetry_plane
+1138	52	find_symmetry_plane
+1139	52	find_symmetry_plane
+1140	52	find_symmetry_plane
+1141	52	find_symmetry_plane
+1142	52	find_symmetry_plane
+1143	52	find_symmetry_plane
+1144	52	find_symmetry_plane
+1145	52	find_symmetry_plane
+1146	52	find_symmetry_plane
+1147	52	find_symmetry_plane
+1148	5	simple_step
+1149	95	identify_centroid
+1150	5	simple_step
+1151	95	identify_centroid
+1152	5	simple_step
+1153	95	identify_centroid
+1154	5	simple_step
+1155	96	centroid_of_composite_area
+1156	5	simple_step
+1157	5	simple_step
+1158	52	find_symmetry_plane
+1159	52	find_symmetry_plane
+1160	52	find_symmetry_plane
+1161	96	centroid_of_composite_area
+1162	52	find_symmetry_plane
+1163	96	centroid_of_composite_area
+1164	52	find_symmetry_plane
+1165	96	centroid_of_composite_area
+1166	52	find_symmetry_plane
+1167	11	
+1168	11	
+1169	11	
+1170	11	
+1171	11	
+1172	97	mass_moment_of_inertia_parallel_axis_theorem
+1173	98	relative_magnitudes_mass_moment_of_inertia
+1174	96	centroid_of_composite_area
+1175	96	centroid_of_composite_area
+1176	5	simple_step
+1177	96	centroid_of_composite_area
+1178	32	statics_problem_force_and_moment
+1179	32	statics_problem_force_and_moment
+1180	11	
+1181	11	
+1182	11	
+1183	11	
+1184	11	
+1185	11	
+1186	51	find_linear_force_per_length
+1187	92	replace_general_loads_with_single_force
+1188	5	simple_step
+1189	11	
+1190	11	
+1191	11	
+1192	11	
+1193	11	
+1194	11	
+1195	11	
+1196	11	
+1197	11	
+1198	11	
+1199	11	
+1200	11	
+1201	96	centroid_of_composite_area
+1202	11	
+1203	11	
+1204	11	
+1205	11	
+1206	11	
+1207	11	
+1208	11	
+1209	11	
+1210	11	
+1211	11	
+1212	11	
+1213	5	simple_step
+1214	28	judge_equilibrium_qualitatively
+1215	11	
+1216	11	
+1217	11	
+1218	96	centroid_of_composite_area
+1219	11	
+1220	11	
+1221	11	
+1222	11	
+1223	11	
