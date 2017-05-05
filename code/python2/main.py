@@ -85,11 +85,11 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
         print "valid_auc\t", valid_auc, "\ttrain_auc\t", train_auc
         print "valid_accuracy\t", valid_accuracy, "\ttrain_accuracy\t", train_accuracy
         print "valid_loss\t", valid_loss, "\ttrain_loss\t", train_loss
-        net.save_checkpoint(prefix=os.path.join('model', params.save, file_name), epoch=idx)
+        net.save_checkpoint(prefix=os.path.join('model', params.save, file_name), epoch=idx+1)
         # output the epoch with the best validation auc
         if valid_auc > best_valid_auc:
             best_valid_auc = valid_auc
-            best_epoch = idx
+            best_epoch = idx+1
 
     f_save_log = open(os.path.join('result', params.save, file_name), 'w')
     f_save_log.write("valid_auc:\n" + str(all_valid_auc) + "\n\n")
