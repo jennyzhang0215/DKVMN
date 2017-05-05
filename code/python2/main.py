@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=50, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=50, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/synthetic', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/synthetic', help='data directory')
         parser.add_argument('--data_name', type=str, default='naive_c5_q50_s4000_v1', help='data set name')
         parser.add_argument('--load', type=str, default='synthetic/v1', help='model file to load')
         parser.add_argument('--save', type=str, default='synthetic/v1', help='path to save model')
@@ -175,7 +175,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=110, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=200, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/assist2009_updated', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/assist2009_updated', help='data directory')
         parser.add_argument('--data_name', type=str, default='assist2009_updated', help='data set name')
         parser.add_argument('--load', type=str, default='assist2009_updated', help='model file to load')
         parser.add_argument('--save', type=str, default='assist2009_updated', help='path to save model')
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=100, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=200, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/assist2015', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/assist2015', help='data directory')
         parser.add_argument('--data_name', type=str, default='assist2015', help='data set name')
         parser.add_argument('--load', type=str, default='assist2015', help='model file to load')
         parser.add_argument('--save', type=str, default='assist2015', help='path to save model')
@@ -214,7 +214,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=1223, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=200, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/STATICS', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/STATICS', help='data directory')
         parser.add_argument('--data_name', type=str, default='STATICS', help='data set name')
         parser.add_argument('--load', type=str, default='STATICS', help='model file to load')
         parser.add_argument('--save', type=str, default='STATICS', help='path to save model')

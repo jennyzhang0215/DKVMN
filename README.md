@@ -5,7 +5,7 @@ Dynamic Key-Value Memory Networks for Knowledge Tracing
 ## Built With
 
 * [MXNet](https://github.com/dmlc/mxnet) - The framework used
-
+* Both Python2 and Python3 are supported
 
 ### Prerequisites
 * [progress](https://pypi.python.org/pypi/progress) - Dependency package

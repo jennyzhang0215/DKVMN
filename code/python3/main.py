@@ -86,6 +86,14 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
         print("valid_accuracy\t", valid_accuracy, "\ttrain_accuracy\t", train_accuracy)
         print("valid_loss\t", valid_loss, "\ttrain_loss\t", train_loss)
         net.save_checkpoint(prefix=os.path.join('model', params.save, file_name), epoch=idx)
+
+        all_valid_auc[idx + 1] = valid_auc
+        all_train_auc[idx + 1] = train_auc
+        all_valid_loss[idx + 1] = valid_loss
+        all_train_loss[idx + 1] = train_loss
+        all_valid_accuracy[idx + 1] = valid_accuracy
+        all_train_accuracy[idx + 1] = train_accuracy
+
         # output the epoch with the best validation auc
         if valid_auc > best_valid_auc :
             best_valid_auc = valid_auc
@@ -156,7 +164,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=50, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=50, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/synthetic', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/synthetic', help='data directory')
         parser.add_argument('--data_name', type=str, default='naive_c5_q50_s4000_v1', help='data set name')
         parser.add_argument('--load', type=str, default='synthetic/v1', help='model file to load')
         parser.add_argument('--save', type=str, default='synthetic/v1', help='path to save model')
@@ -175,7 +183,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=110, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=200, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/assist2009_updated', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/assist2009_updated', help='data directory')
         parser.add_argument('--data_name', type=str, default='assist2009_updated', help='data set name')
         parser.add_argument('--load', type=str, default='assist2009_updated', help='model file to load')
         parser.add_argument('--save', type=str, default='assist2009_updated', help='path to save model')
@@ -194,7 +202,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=100, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=200, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/assist2015', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/assist2015', help='data directory')
         parser.add_argument('--data_name', type=str, default='assist2015', help='data set name')
         parser.add_argument('--load', type=str, default='assist2015', help='model file to load')
         parser.add_argument('--save', type=str, default='assist2015', help='path to save model')
@@ -214,7 +222,7 @@ if __name__ == '__main__':
 
         parser.add_argument('--n_question', type=int, default=1223, help='the number of unique questions in the dataset')
         parser.add_argument('--seqlen', type=int, default=200, help='the allowed maximum length of a sequence')
-        parser.add_argument('--data_dir', type=str, default='../data/STATICS', help='data directory')
+        parser.add_argument('--data_dir', type=str, default='../../data/STATICS', help='data directory')
         parser.add_argument('--data_name', type=str, default='STATICS', help='data set name')
         parser.add_argument('--load', type=str, default='STATICS', help='model file to load')
         parser.add_argument('--save', type=str, default='STATICS', help='path to save model')
