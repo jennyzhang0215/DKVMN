@@ -96,6 +96,10 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
             best_valid_auc = valid_auc
             best_epoch = idx+1
 
+    if not os.path.isdir('result'):
+        os.makedirs('result')
+    if not os.path.isdir(os.path.join('result', params.save)):
+        os.makedirs(os.path.join('result', params.save))
     f_save_log = open(os.path.join('result', params.save, file_name), 'w')
     f_save_log.write("valid_auc:\n" + str(all_valid_auc) + "\n\n")
     f_save_log.write("train_auc:\n" + str(all_train_auc) + "\n\n")
