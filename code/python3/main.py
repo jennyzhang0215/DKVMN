@@ -85,6 +85,8 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
         print("valid_auc\t", valid_auc, "\ttrain_auc\t", train_auc)
         print("valid_accuracy\t", valid_accuracy, "\ttrain_accuracy\t", train_accuracy)
         print("valid_loss\t", valid_loss, "\ttrain_loss\t", train_loss)
+        if not os.path.isdir('model'):
+            os.makedirs('model')
         net.save_checkpoint(prefix=os.path.join('model', params.save, file_name), epoch=idx+1)
 
         all_valid_auc[idx + 1] = valid_auc
