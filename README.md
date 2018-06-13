@@ -77,6 +77,6 @@ The third line is the response sequence.
 
 ## Reference Paper
 
-Jiani Zhang, Xingjian Shi, Irwin King, Dit-Yan Yeung. [Dynamic Key-Value Memory Networks for Knowledge Tracing](https://arxiv.org/pdf/1611.08108.pdf).
-In the 26th International Conference on World Wide Web, 2017.
+Jiani Zhang, Xingjian Shi, Irwin King, Dit-Yan Yeung. [Dynamic Key-Value Memory Networks for Knowledge Tracing](http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/proceedings/p765.pdf).
+In Proceedings of the 26th International Conference on World Wide Web, 2017: 765-774.
 
