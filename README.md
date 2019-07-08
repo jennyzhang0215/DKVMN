@@ -17,7 +17,7 @@ Dynamic Key-Value Memory Networks for Knowledge Tracing
 
 ### Data format
 
-The first line the number of exercises a student attempted.
+The first line is the number of exercises a student attempted.
 The second line is the exercise tag sequence.
 The third line is the response sequence.
 
