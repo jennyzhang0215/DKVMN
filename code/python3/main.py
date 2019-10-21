@@ -90,7 +90,7 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
             os.makedirs('model')
         if not os.path.isdir(os.path.join('model', params.save)):
             os.makedirs(os.path.join('model', params.save))
-        net.save_checkpoint(prefix=os.path.join('model', params.save, file_name), epoch=idx+1)
+
 
         all_valid_auc[idx + 1] = valid_auc
         all_train_auc[idx + 1] = train_auc
@@ -103,6 +103,9 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
         if valid_auc > best_valid_auc :
             best_valid_auc = valid_auc
             best_epoch = idx+1
+            # here the epoch is default, set to be 100
+            # we only save the model in the epoch with the better results
+            net.save_checkpoint(prefix=os.path.join('model', params.save, file_name), epoch=100)
 
     if not os.path.isdir('result'):
         os.makedirs('result')
@@ -118,8 +121,8 @@ def train_one_dataset(params, file_name, train_q_data, train_qa_data, valid_q_da
     f_save_log.close()
     return best_epoch
 
-def test_one_dataset(params, file_name, test_q_data, test_qa_data, best_epoch):
-    print("\n\nStart testing ......................\n Best epoch:", best_epoch)
+def test_one_dataset(params, file_name, test_q_data, test_qa_data):
+    print("\n\nStart testing ......................")
     g_model = MODEL(n_question=params.n_question,
                     seqlen=params.seqlen,
                     batch_size=params.batch_size,
@@ -140,7 +143,7 @@ def test_one_dataset(params, file_name, test_q_data, test_qa_data, best_epoch):
         mx.io.DataDesc(name='qa_data', shape=(params.seqlen, params.batch_size), layout='SN')],
         label_shapes=[mx.io.DataDesc(name='target', shape=(params.seqlen, params.batch_size), layout='SN')])
     arg_params, aux_params = load_params(prefix=os.path.join('model', params.load, file_name),
-                                         epoch=best_epoch)
+                                         epoch=100)
     test_net.init_params(arg_params=arg_params, aux_params=aux_params,
                          allow_missing=False)
     test_loss, test_accuracy, test_auc = test(test_net, params, test_q_data, test_qa_data, label='Test')
@@ -281,16 +284,16 @@ if __name__ == '__main__':
         if params.train_test:
             test_data_path = params.data_dir + "/" + params.data_name + "_test.csv"
             test_q_data, test_qa_data = dat.load_data(test_data_path)
-            test_one_dataset(params, file_name, test_q_data, test_qa_data, best_epoch)
+            test_one_dataset(params, file_name, test_q_data, test_qa_data)
     else:
         params.memory_key_state_dim = params.q_embed_dim
         params.memory_value_state_dim = params.qa_embed_dim
         test_data_path = params.data_dir + "/" + params.data_name  +"_test.csv"
         test_q_data, test_qa_data = dat.load_data(test_data_path)
-        best_epoch = 30
         file_name = 'b' + str(params.batch_size) + \
                     '_q' + str(params.q_embed_dim) + '_qa' + str(params.qa_embed_dim) + \
                     '_m' + str(params.memory_size) + '_std' + str(params.init_std) + \
                     '_lr' + str(params.init_lr) + '_gn' + str(params.maxgradnorm) + \
                     '_f' + str(params.final_fc_dim) + '_s' + str(seedNum)
-        test_one_dataset(params, file_name, test_q_data, test_qa_data, best_epoch)
+
+        test_one_dataset(params, file_name, test_q_data, test_qa_data)
