@@ -155,6 +155,7 @@ if __name__ == '__main__':
     parser.add_argument('--test', type=bool, default=False, help='enable testing')
     parser.add_argument('--train_test', type=bool, default=True, help='enable testing')
     parser.add_argument('--show', type=bool, default=True, help='print progress')
+    parser.add_argument('--seedNum', type=int, default=1024, help='the random seed')
 
     dataset = "assist2009_updated"  # synthetic / assist2009_updated / assist2015 / KDDal0506 / STATICS
 
@@ -252,8 +253,7 @@ if __name__ == '__main__':
 
     # Read data
     dat = DATA(n_question=params.n_question, seqlen=params.seqlen, separate_char=',')
-
-    seedNum =224
+    seedNum = params.seedNum
     np.random.seed(seedNum)
     if not params.test:
         params.memory_key_state_dim = params.q_embed_dim
