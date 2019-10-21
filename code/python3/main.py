@@ -144,9 +144,10 @@ def test_one_dataset(params, file_name, test_q_data, test_qa_data, best_epoch):
     test_net.init_params(arg_params=arg_params, aux_params=aux_params,
                          allow_missing=False)
     test_loss, test_accuracy, test_auc = test(test_net, params, test_q_data, test_qa_data, label='Test')
-    print("\ntest_auc\t", test_auc)
-    print("test_accuracy\t", test_accuracy)
-    print("test_loss\t", test_loss)
+    log_info = "\ntest_auc:\t{}\ntest_accuracy:\t{}\ntest_loss:\t{}\n".format(test_auc, test_accuracy, test_loss)
+    print(log_info)
+    f_save_log = open(os.path.join('result', params.save, file_name), 'a')
+    f_save_log.write(log_info)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Script to test KVMN.')
